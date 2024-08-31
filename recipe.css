@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  background-color: slategrey;
+  margin: 0 auto;
+  color: pink;
+  text-align: center;
+  font-size: 14px;
+  width: 250px;
+   
+
+}
+
+div {
+  
+  margin: 0 auto;
+}
+
+#wani1 { 
+  background-color: forestgreen;    
+  width: 200px;
+  height: 200px;
+} 
+
+
+#wani2 { 
+  background-color: skyblue;
+  width: 200px;
+  height: 200px;
+  
+} 
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 auto; 
+}
+
+
+/**
+classよりもidが優先で選択される
+ハイフンでつなぐ書き方はケバブケース
+*/
