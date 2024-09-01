@@ -1,51 +1,107 @@
+@charset "UTF-8";
+
+
 body {
-  background-color: white;
+  background-color: black;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+button{
+  background-color: #9CB3DB;
 }
 
 h1 {
-  background-color: slategrey;
   margin: 0 auto;
-  color: pink;
   text-align: center;
-  font-size: 14px;
-  width: 250px;
-   
-
+  font-size: 24px;
+  font-weight: bold;
+  border-top: 10px solid slategray;
+  color:#1B365C;
+  background-color: #9CB3DB;
+  width: 100%;
 }
 
-div {
-  
+.header{
+  width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 
-#wani1 { 
-  background-color: forestgreen;    
-  width: 200px;
-  height: 200px;
-} 
-
-
-#wani2 { 
-  background-color: skyblue;
-  width: 200px;
-  height: 200px;
-  
-} 
-
-
-
-.button-container {
+.header ul{
   display: flex;
-  justify-content: center;
+  text-align: center;
+}
+
+.header ul li{
+  width: 200px;
+  text-align: center;
+  border-right: 1px solid #6e95d8;
+}
+
+.header_img{
+  width: 400px;
+  text-align: center;
+}
+
+.header_img img{
+  display:inline-block;
+}
+
+h2 {
+  margin: 10 auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.contents_recipe .contents_eachrecipe{
   margin: 0 auto;
+  width: 1200px;
+  padding: 15px 20px 12px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
-p {
-  margin: 0 auto; 
+.contents_eachrecipe{
+  width: 1200px;
 }
 
+.contents_eachrecipe_name .contents_eachrecipe_text{
+  margin: 0 auto;
+  margin-bottom: 20 px;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 20px 12px;
+}
+.contents_eachrecipe_text{
+  text-align: left;
+}
 
-/**
-classよりもidが優先で選択される
-ハイフンでつなぐ書き方はケバブケース
-*/
+h3 {
+  margin: 10 auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.footer{
+  color:#1B365C;
+  width: 1200px;
+  background-color: #9CB3DB;
+  margin: 0 auto;
+  text-align: center;
+}
+
