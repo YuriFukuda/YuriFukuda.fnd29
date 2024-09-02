@@ -2,12 +2,16 @@
 
 
 body {
-  background-color: black;
+  background-color:black;
   color: white;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   text-align: center;
 
+}
+
+div {
+  text-align: center;
 }
 
 a {
@@ -23,11 +27,12 @@ button{
 h1 {
   margin: 0 auto;
   text-align: center;
+  width: 1200px;
   font-size: 24px;
   font-weight: bold;
-  border-top: 10px solid slategray;
-  color:#1B365C;
-  background-color: #9CB3DB;
+  border-top: 10px solid darkcyan;
+  color:white;
+  background-color:black;
   width: 100%;
 }
 
@@ -38,12 +43,13 @@ h1 {
 }
 
 .header ul{
+  width: 1200px;
   display: flex;
   text-align: center;
 }
 
-.header ul li{
-  width: 200px;
+.header ul ol{
+  width: 1200px;
   text-align: center;
   border-right: 1px solid #6e95d8;
 }
@@ -58,14 +64,26 @@ h1 {
 }
 
 h2 {
-  margin: 10 auto;
+  margin: 0 auto;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  width: 100%;
+  width: 1200px;
 }
 
-.contents_recipe .contents_eachrecipe{
+.contents_eachrecipe_name{
+  margin: 0 auto;
+  width: 1200px;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 20px 12px;
+  margin-bottom: 20 px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.contents_eachrecipe_img ol{
   margin: 0 auto;
   width: 1200px;
   padding: 15px 20px 12px;
@@ -75,16 +93,14 @@ h2 {
 }
 
 .contents_eachrecipe{
+  margin: 0 auto;
   width: 1200px;
+  padding: 15px 20px 12px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
-.contents_eachrecipe_name .contents_eachrecipe_text{
-  margin: 0 auto;
-  margin-bottom: 20 px;
-  font-size: 18px;
-  text-align: center;
-  padding: 15px 20px 12px;
-}
 .contents_eachrecipe_text{
   text-align: left;
 }
@@ -98,10 +114,10 @@ h3 {
 }
 
 .footer{
-  color:#1B365C;
+  color:white;
   width: 1200px;
-  background-color: #9CB3DB;
+  background-color: black;
   margin: 0 auto;
   text-align: center;
+  border-bottom: 10px solid darkcyan;
 }
-
